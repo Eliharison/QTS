@@ -3,10 +3,10 @@ name: PIPELINE ATV2 - T2
 on:
   push:
     branches:
-      - ATV2-T2
+      - green
   pull_request:
     branches:
-      - ATV2-T2
+      - green
 
 jobs:
   test:
